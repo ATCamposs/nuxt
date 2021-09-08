@@ -1,7 +1,7 @@
 # pomodoro-nuxt
 
 ## Build Setup
-
+sadasdsadsadasd
 ```bash
 # install dependencies
 $ npm install
