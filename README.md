@@ -1,69 +1,76 @@
-# pomodoro-nuxt
+<h1 align="center">
+  Movue It
+</h1>
+<h3 align="center">
+	NLW: Nuxt Levue Week - (Vue + Nuxt + TailwindCSS + Typescript)
+</h3>
 
-## Build Setup
+## 💻 Sobre o projeto
+
+Movue It - é uma aplicação que permite você executar a técnica de Pomodoro para focar nas suas atividades. Ao final de cada ciclo, um desafio lhe é proposto para que você descanse e se exercite.
+
+Projeto desenvolvido durante a **NLW - Next Level Week 4** oferecida pela [Rocketseat](https://nextlevelweek.com/), porém realizada com o framework Vue.js e Nuxt.js, além de outras tecnologias front end.
+
+---
+## ⚙️ Funcionalidades
+
+- [x] Contagem regressiva de 25 minutos
+- [x] Desafio para exercitar seu corpo e olhos
+---
+
+## 🎨 Layout
+### Mobile
+
+<p align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/assets/mobile-demo.gif" width="200px">
+</p>
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/assets/web-demo.gif" width="500px">
+</p>
+
+---
+
+## 🚀 Como executar o projeto
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🧭 Rodando a aplicação
 
 ```bash
-# install dependencies
+
+# Clone este repositório
+$ git clone git@github.com:rafaelmaiach/movue-it-nuxt.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd movue-it-nuxt
+
+# Instale as dependências (escolha um)
 $ npm install
+$ yarn install
 
-# serve with hot reload at localhost:3000
+# Execute a aplicação em modo de desenvolvimento (escolha um)
 $ npm run dev
+$ yarn dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+# A aplicação será aberta na porta:3000
+# acesse http://localhost:3000
 
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+---
 
-## Special Directories
+## 🛠 Tecnologias
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `assets`
+#### **Website**  ([Vue](https://vuejs.org/) + [Nuxt](https://nuxtjs.org/)  +  [TypeScript](https://www.typescriptlang.org/) + [TailwindCSS](https://tailwindcss.com/))
+<br>
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+> Veja o arquivo  [package.json](https://github.com/rafaelmaiach/movue-it-nuxt/blob/master/web/package.json)
