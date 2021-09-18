@@ -18,21 +18,6 @@ Projeto desenvolvido durante a **NLW - Next Level Week 4** oferecida pela [Rocke
 - [x] Desafio para exercitar seu corpo e olhos
 ---
 
-## 🎨 Layout
-### Mobile
-
-<p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/assets/mobile-demo.gif" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./.github/assets/web-demo.gif" width="500px">
-</p>
-
----
-
 ## 🚀 Como executar o projeto
 
 ### Pré-requisitos
