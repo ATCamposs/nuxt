@@ -1,7 +1,18 @@
+@media (max-width: 1023px) {
+	html {
+		font-size: 93.75%;
+	}
+}
+
+@media (max-width: 639px) {
+	html {
+		font-size: 87.5%;
+	}
+}
+
 body {
 	font-family: 'Inter', sans-serif;
-	opacity: 1;
-	a
+
 	@apply text-text bg-background;
 }
 
@@ -20,8 +31,5 @@ body {
 .slide-fade-enter,
 .slide-fade-leave-to {
 	transform: translateY(10px);
-	sadsa
-	asdasdas
-	dasasd
 	opacity: 0;
 }
