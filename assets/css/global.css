@@ -1,6 +1,7 @@
 body {
 	font-family: 'Inter', sans-serif;
-	ashuashuashu
+	opacity: 1;
+
 	@apply text-text bg-background;
 }
 
@@ -19,8 +20,5 @@ body {
 .slide-fade-enter,
 .slide-fade-leave-to {
 	transform: translateY(10px);
-	sadsa
-	asdasdas
-	dasasd
 	opacity: 0;
 }
